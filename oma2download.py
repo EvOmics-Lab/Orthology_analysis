@@ -14,7 +14,7 @@ import genome_modules as GM
 import general_modules as gmo
 import pyoma.browser.db
 from pyoma.browser.models import ProteinEntry, HOG
-db = pyoma.browser.db.Database('/work/FAC/FBM/DBC/cdessim2/oma/oma-browser/All.Jul2024/data/OmaServer.h5')
+db = pyoma.browser.db.Database('/faststorage/project/evomics_projects/Databases/oma-browser/All.May2026/OmaServer.h5')
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
